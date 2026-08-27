@@ -106,45 +106,29 @@ a {
     gap: 30px;
 }
 
+/* ===============================
+   BRAND LOGO
+================================ */
 
 .brand {
     display: flex;
-
     align-items: center;
-
     gap: 11px;
 }
 
-
-.brand-mark {
+.brand-logo {
     width: 42px;
-
     height: 42px;
 
-    display: grid;
+    object-fit: contain;
 
-    place-items: center;
-
-    border-radius: 10px;
-
-    background: var(--navy);
-
-    color: var(--white);
-
-    font-size: 12px;
-
-    font-weight: 800;
-
-    letter-spacing: 0.08em;
+    flex-shrink: 0;
 }
-
 
 .brand-text {
     display: grid;
-
     gap: 1px;
 }
-
 
 .brand-text strong {
     color: var(--navy);
@@ -154,13 +138,11 @@ a {
     letter-spacing: 0.04em;
 }
 
-
 .brand-text small {
     color: var(--muted);
 
     font-size: 11px;
 }
-
 
 .main-navigation {
     display: flex;
@@ -169,7 +151,6 @@ a {
 
     gap: 28px;
 }
-
 
 .main-navigation a {
     position: relative;
@@ -180,7 +161,6 @@ a {
 
     font-weight: 600;
 }
-
 
 .main-navigation a::after {
     content: "";
